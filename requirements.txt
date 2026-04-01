@@ -1,0 +1,26 @@
+# Core ML/DL Libraries
+torch>=2.10.0
+torchvision>=0.25.0
+transformers>=5.2.0
+
+# Computer Vision
+Pillow>=12.1.0
+opencv-python-headless>=4.13.0
+
+# Data Processing
+numpy>=2.4.0
+pandas>=3.0.0
+scikit-learn>=1.8.0
+scipy>=1.15.0
+
+# Utilities
+tqdm>=4.67.0
+
+# NLP
+nltk>=3.9.0
+
+# Fairness & Metrics (used in training/evaluation)
+fairlearn>=0.13.0
+
+# OCR (optional — macOS: brew install tesseract)
+pytesseract>=0.3.13

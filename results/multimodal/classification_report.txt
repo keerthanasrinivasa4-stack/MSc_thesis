@@ -1,0 +1,16 @@
+Multimodal (BERT + ResNet50) — binary
+Best epoch: 5 | val_f1: 0.6468
+
+              precision    recall  f1-score   support
+
+     NotHate     0.6753    0.6988    0.6868      5574
+        Hate     0.6033    0.5768    0.5897      4426
+
+    accuracy                         0.6448     10000
+   macro avg     0.6393    0.6378    0.6383     10000
+weighted avg     0.6434    0.6448    0.6439     10000
+
+
+Confusion Matrix:
+[[3895 1679]
+ [1873 2553]]

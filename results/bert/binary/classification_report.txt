@@ -1,0 +1,16 @@
+BERT — binary
+Best epoch: 5 | val_f1: 0.6399
+
+              precision    recall  f1-score   support
+
+     NotHate     0.6824    0.6450    0.6632      5574
+        Hate     0.5818    0.6220    0.6012      4426
+
+    accuracy                         0.6348     10000
+   macro avg     0.6321    0.6335    0.6322     10000
+weighted avg     0.6379    0.6348    0.6357     10000
+
+
+Confusion Matrix:
+[[3595 1979]
+ [1673 2753]]

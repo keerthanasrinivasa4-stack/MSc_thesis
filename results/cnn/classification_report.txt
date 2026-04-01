@@ -1,0 +1,16 @@
+ResNet50 Image Classifier — binary
+Best epoch: 5 | val_f1: 0.3197
+
+              precision    recall  f1-score   support
+
+     NotHate     0.7474    0.0127    0.0250      5574
+        Hate     0.4444    0.9946    0.6143      4426
+
+    accuracy                         0.4473     10000
+   macro avg     0.5959    0.5037    0.3197     10000
+weighted avg     0.6133    0.4473    0.2859     10000
+
+
+Confusion Matrix:
+[[  71 5503]
+ [  24 4402]]
